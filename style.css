@@ -1,0 +1,1151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@font-face {
+    font-family: 'Akazan';
+    src: url('./fonts/Akazan.ttf');
+}
+*{
+    font-family: 'Inter';
+    box-sizing: border-box;
+    text-decoration-line: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+    padding: 16px 150px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0B9586;
+    z-index: 100;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+/* .logo h1{
+    color: white;
+} */
+.logo img{
+    color: white;
+    width: 157px;
+    height: 54px;
+    mix-blend-mode: multiply;
+
+}
+
+
+
+.navigation ul li #home,#trade,#shop{
+    width:103px;
+    height: 38px;
+    padding: 8px 28px 8px 28px;
+ }
+
+ .navigation ul li  #home{
+    background: rgba(0, 0, 0, 0.06);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    }
+    
+    .navigation ul li #contact {
+        width: 160px;    
+        height: 38px;
+        padding: 8px 28px 8px 28px;    
+    }
+    .navigation ul li a{
+        color: white;
+    }
+
+    .call-us{
+        text-align: end;
+        letter-spacing: 0.9375px;
+        color: #FFFFFF;
+        flex: none;
+    }
+    .call-us p span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.94px
+    }
+
+    main .hero .content {
+        background-image: url('./images/back2.png');
+        height: 650px;
+        background-repeat: no-repeat;  
+         background-size: 100% 100%; 
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+        
+    }
+
+  
+    main .hero .content  .measure {
+        position: absolute;
+        top: 168.93px;
+        left: 150px;
+        border: 3.75px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        max-width: 332.83px;
+    }
+  
+
+    main .hero .content  .measure .stick{       
+        width: 220.59px;
+        /* border: 3  solid rgba(87, 87, 87, 1); */
+        background-color:rgba(87, 87, 87, 1) ;
+
+    }
+    main .hero .content  .measure .stick div{
+        border: 3px solid rgba(255, 255, 255, 1);
+        width: 89.01px;
+        border: 3.75px 0px 0px 0px;
+    }
+
+    main .hero .content  .measure span{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20.95px;
+        letter-spacing: 0.93px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+
+        
+    }
+
+    main .hero .content .solar{
+        position: absolute;
+        width:  729px;
+        height:305px;
+        top: 261px;
+        left: 150px;
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        
+
+    }
+    main .hero .content .solar h1{
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 62.93px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        
+    }
+
+    main .hero .content .solar p{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        text-wrap:wrap;
+        width: 715px;
+        height: 90px;
+    }
+
+
+    main .hero .content .solar .buttons {
+        display: flex;
+        gap: 24px;
+        width:  405px;
+        height: 41px;
+
+
+    }
+    main .hero .content .solar .button1{
+        width:173px;
+        height:41px;
+        padding: 12px 34px 12px 34px;
+        gap: 10px;
+        border-radius: 109px;
+        background: rgba(60, 171, 144, 1);
+        color: rgba(255, 255, 255, 1);
+        border: #FFFFFF;
+        cursor: pointer;
+        
+    }
+
+    main .hero .content .solar .button2{
+        width:  208px;
+        height:  41px;
+        padding: 12px 34px 12px 34px;
+        color: rgba(42, 51, 52, 1);
+        border: #FFFFFF;
+        border-radius: 109px;     
+        background: rgba(255, 187, 28, 1);
+        cursor: pointer;
+
+    }
+
+
+    main .friendlist{
+        width:  1,135px;
+        height: 712px;
+        padding: 80px 150px ;    
+        gap: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    main .friendlist .txt{
+        display: flex;
+        flex-direction: column;
+        width: 594px;
+        height: 552px;
+        gap: 50px;
+    }
+    main .friendlist .txt h2{
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 50.83px;
+        letter-spacing: -0.02em;
+        color: rgba(16, 24, 40, 1);
+
+    }
+    
+
+    main .friendlist .txt p{
+        width: 594px;
+        height: 144px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(71, 84, 103, 1);
+
+    }   
+
+    main .friendlist .txt span{
+        font-family: Akazan;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.28px;
+        letter-spacing: 4px;
+        text-align: left;
+        color: rgba(132, 189, 58, 1);
+    }
+    main .friendlist .txt ul li{
+        color: rgba(16, 24, 40, 1);
+    }
+
+    main .friendlist .image .img{
+        width: 518px;
+        height: 552px;
+        border-radius: 12px;
+        background-image: url('./images/solar.png');
+        background-repeat: no-repeat;
+    }
+  
+    main .friendlist .image .sold{
+        position: absolute;
+        width: 266px;
+        height: 208px;
+        top: 410px;
+        left: 800px;
+        padding: 24px 30px 24px 30px;
+        gap: 28px;
+        border-radius: 12px ;
+        background: rgba(255, 187, 28, 1);
+       
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+    }
+    main .friendlist .image .sold p{
+        width: 206px;
+        height: 42px;
+        color: rgba(42, 51, 52, 1);
+        font-family: Akazan;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20.95px;
+        letter-spacing: 0.94px;
+        text-align: left;
+    }
+    main .earth{
+        background-image: url('./images/sec3.png');
+        height: 505px;
+        background-repeat: no-repeat;
+
+    }
+    main .earth .e-content{
+        width:678px;
+        height: 212px;
+        display: flex ;
+        flex-direction: column;
+        gap: 32px;
+        padding: 150px;
+    }
+    main .earth .e-content h2{
+        width: 678px;
+        height: 51px;
+        font-family: Inter;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 50.83px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    main .earth .e-content p{
+        width: 678px;
+        height: 56px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    main .earth .e-content button{
+        width:  208px;
+        height:  41px;
+        padding: 12px 34px 12px 34px;
+        color: rgba(42, 51, 52, 1);
+        border: #FFFFFF;
+        border-radius: 109px;     
+        background: rgba(255, 187, 28, 1);
+        cursor: pointer;    
+    }
+
+    /* main .kits{
+        display: flex;
+        justify-content: center;
+    } */
+    main .kits{
+        padding:80px 150px 0 150px;
+
+    }
+    main .kits .k-content{
+        width: 1140px;
+        height: 777px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    main .kits .k-content .txt{
+    width: 936px;
+    height:123px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    }
+    main .kits .k-content .txt h2{
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 50.83px;
+        letter-spacing: -0.02em;
+        width: 936px;
+        height: 51px;  
+    }
+    main .kits .k-content .txt p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 936px;
+        height: 48px;
+
+    }
+
+    main .kits .k-content .cards{
+        gap: 40px;
+        display: flex;
+    }
+
+    main .kits .k-content .cards .c1{
+        width: 358.67px;
+        height: 454px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        display: flex; 
+        flex-direction: column;
+    }
+
+    main .kits .k-content .cards .c1 h4{
+        width: 318.67px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: rgba(16, 24, 40, 1);
+
+
+    }
+    main .kits .k-content .cards .c1 p{
+        width: 318.67px;
+        height: 72px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(71, 84, 103, 1);
+    }
+    
+    main .kits .k-content .cards .c1 div{
+            width:358.67px;
+            height: 214px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+    }
+    main .kits .k-content .cards .c1 div .products{
+            width:100%;
+            height:24px;
+            display: flex;
+            gap: 8px;
+            flex-direction: row;
+            align-items: center; 
+            text-align: left;
+            padding-left: 0;
+        }
+
+        main .kits .k-content .cards .c1 div .products a  {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: rgba(60, 171, 144, 1);
+            width: 113px;
+            height: 24px;
+            text-align: left;
+           
+        }
+
+
+        main .cta .c-content{
+            background-image: url('./images/CTA.png');
+            height: 505px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+
+        main .cta .c-content .frame   {
+            width:858px;
+            height:311px;
+            padding: 44px;
+            gap: 32px;
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.57);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+            backdrop-filter: blur(5px);
+
+        }
+
+
+        main .cta .c-content .frame h2  {
+            font-size: 42px;
+            font-weight: 600px;
+            line-height: 50.83px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(255, 255, 255, 1);
+            width: 770px;
+            height: 51px;
+         }
+         main .cta .c-content .frame p{
+            font-size: 20px;
+            font-weight: 500px;
+            line-height: 28px;
+            text-align: center;
+            width: 770px;
+            height: 140px;
+            color: rgba(255, 255, 255, 1);
+
+         }
+
+         main .containers .containers-content{
+            width:1,440px;
+            height:1,022px;
+            padding: 80px 150px 80px 150px;
+            gap: 32px;
+            display: flex;
+
+         }
+         main .containers .containers-content .energy{
+            width: 358.67px;
+            height:337px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+         }
+
+        
+         main .containers .containers-content .energy .icon{
+            width: 70px;
+            height:70px;
+            border-radius: 10px; 
+            padding:14px;
+            background: rgba(60, 171, 144, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-clip: padding-box;
+            border: 7px solid rgba(60, 171, 144, 0.15)
+         }
+         main .containers .containers-content .energy .icon svg {
+            width: 23.37px;
+            height: 21px;
+
+         }
+
+         main .containers .containers-content .energy h2        {
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 50.83px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            width: 358.67px;
+            height: 153px;
+            color: rgba(16, 24, 40, 1);
+         
+
+         }
+
+         main .containers .containers-content .energy p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: left;
+            color: rgba(71, 84, 103, 1);
+
+         }
+
+         main .containers .containers-content .features .f1 {
+            width: 358.67px;
+            height:418px;
+            padding: 24px;
+            gap: 32px;
+            border-radius: 12px ;
+            border: 1px;
+            border: 1px solid rgba(60, 171, 144, 1);
+            background: rgba(60, 171, 144, 0.05);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+         }
+         main .containers .containers-content .features .f2{
+          height:364px
+         }
+         main .containers .containers-content .features .f4{
+            height: 412px;
+         }
+
+         main .containers .containers-content .features .f1  .frame{
+            width: 310.67px;
+            height:106px;
+            padding: 10px ;
+            gap: 10px;
+            border-radius: 10px ;
+            background: rgba(60, 171, 144, 0.15);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+         }
+
+         main .containers .containers-content .features .f1 .frame div {
+            width: 225px;
+            height: 49px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         main .containers .containers-content .features .f1 .frame div img{
+            width: 40px;
+            height: 45px;
+         }
+         
+         main .containers .containers-content .features{
+            display: flex;
+            flex-direction: column;
+            width: 358.67px;
+            height: 814px;
+            gap: 32px;
+
+         }
+
+
+         main .containers .containers-content .features .f1 .txt{
+            width:310.67px;
+            height: 232px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+         }
+         main .containers .containers-content .features .f1 .txt h2{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: left;
+            color: rgba(16, 24, 40, 1);
+
+         }
+         main .containers .containers-content .features .f1 .txt p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(71, 84, 103, 1);
+
+         }
+
+
+
+
+
+         main .containers .containers-content .features .f1 .txt .integration{
+            width:100%;
+            height:24px;
+            display: flex;
+            gap: 8px;
+            flex-direction: row;
+            align-items: center; 
+            text-align: left;           
+        }
+
+        main .containers .containers-content .features .f1 .txt .integration a  {
+            font-size: 16px;
+            font-weight: 600px  ;
+            line-height: 24px;
+            color: rgba(60, 171, 144, 1);
+            width: 128px;
+            height: 24px;
+            text-align: left;
+           
+        }
+
+  main .values .v-content {
+            width:  1,440px;
+            height:  719px;
+            padding: 80px 150px 80px 150px;
+            gap: 32px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        main .values .v-content .txt{
+            width: 1,140px;
+            height:107px;
+            gap: 28px;
+            opacity: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        main .values .v-content .txt h2{
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 50.83px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(16, 24, 40, 1);
+        }
+        main .values .v-content .txt p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: center;
+            color: rgba(71, 84, 103, 1);
+
+
+        }
+
+        main .values .v-content .cards{
+            width:1,140px;
+            height: 420px;
+            gap: 32px;
+            display: flex;
+
+        }
+
+        main .values .v-content .cards .c1 {
+            width:358.67px;
+            height:420px;
+            padding: 32px;
+            gap: 20px;
+            border-radius: 12px ;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(60, 171, 144, 0.05);
+            border: 1px solid rgba(60, 171, 144, 1);
+            display: flex;
+            flex-direction: column;
+
+        }
+        main .values .v-content .cards .c1  h3 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: left;
+            color: rgba(16, 24, 40, 1);
+
+            
+        }
+        main .values .v-content .cards .c1  p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(71, 84, 103, 1);
+
+        }
+
+
+
+        main .say .s-content{
+            width: 1,440px;
+            height: 603px;
+            padding: 80px 150px 80px 150px;
+            gap: 32px;
+            display: flex;
+        }
+
+        main .say .s-content .left{
+            width:400px;
+            height: 296px;
+            gap: 28px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main .say .s-content .left h1{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 64px;
+            color: rgba(28, 28, 28, 1);
+        }
+
+        main .say .s-content .left p{ 
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            color: rgba(28, 28, 28, 1);
+
+
+        }
+
+        main .say .s-content .right{
+            width: 708px;
+            height:443px;
+            padding: 40px ;
+            gap: 87px;
+            border-radius: 24px ;
+            background: rgba(60, 171, 144, 0.06);
+            display: flex;
+            flex-direction: column;
+        }
+        main .say .s-content .right .upper{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        main .say .s-content .right .upper .txt{
+            width: 516px;
+            height:216px;
+            gap: 52px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main .say .s-content .right .upper .txt h5  {
+            font-family: Plus Jakarta Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20.16px;
+            color: rgba(60, 171, 144, 1);
+
+        }
+        main .say .s-content .right .upper .txt p  {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            color: rgba(16, 24, 40, 1);
+
+
+
+        }
+        main .say .s-content .right .upper .dots .dot,.dot1{
+            width: 8px;
+            height: 8px;
+            background: rgba(217, 217, 217, 1);
+            border-radius: 50%;
+            display: inline-block;
+
+        }
+        main .say .s-content .right .upper .dots .dot1{
+            background: rgba(107, 107, 107, 1);
+        }
+
+        main .say .s-content .right .down{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        main .say .s-content .right .down .person .avatar{
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+
+        main .say .s-content .right .down .person {
+            width: 302px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            
+        }
+        main .say .s-content .right .down .person .info   {
+            width: 234px;
+            height:47px;
+            gap: 9px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 3px;
+        }
+        main .say .s-content .right .down .person .info h3{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            color: rgba(28, 28, 28, 1);
+        }
+        main .say .s-content .right .down .person .info p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.36px;
+            color: rgba(28, 28, 28, 1);   
+        }
+
+        main .say .s-content .right .down .next {
+            width:  112px;
+            height:48px;
+            gap: 16px;
+            display: flex;
+
+        }
+        main .say .s-content .right .down .next .d1{ 
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid rgba(28, 28, 28, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer .f-content{
+            width:1,440px;
+            height:412px;
+            padding:80px 150px 80px 150px;
+            gap: 54px;
+            background: rgba(40, 54, 70, 1);
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        
+        footer .f-content .upper{
+            width:  1,140px;
+            height: 126px;
+            display: flex;
+             justify-content: space-between; 
+             position: relative;           
+
+        }
+        footer .f-content .upper .left{
+            width: 499px;
+            height:126px;
+            gap: 38px;
+            display: flex;
+            flex-direction: column;
+        }
+        footer .f-content .upper .left img     {
+            width: 185px;
+            height: 64px;
+
+        }
+
+        footer .f-content .upper .left ul  {
+            display: flex;
+            gap: 40px;
+        }
+        footer .f-content .upper .left ul li a{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+
+        footer .f-content .upper .right {
+            width:408px;
+            height:82px;
+            padding: 0px 1px 0px 1px;
+            justify-content: space-between;
+            opacity: 0px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+        }
+        footer .f-content .upper .right p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+
+        }
+        footer .f-content .upper .right .subscribe{
+            width: 406px;
+            height: 48px;
+            border-radius: 38px ;
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(179, 189, 199, 1);
+            position: relative;
+        }
+        footer .f-content .upper .right .subscribe input  {
+            width: 259px;
+            height: 48px;
+            padding: 0px 0px 0px 20px;
+            border-radius: 38px 0 0 38px;
+            border: transparent;
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+        }
+        footer .f-content .upper .right .subscribe .btn  {
+            width:150px;
+            height:48px;
+            padding: 12px 34px 12px 34px;
+            gap: 10px;
+            border-radius: 109px;
+            position: absolute;
+            right: 0;
+            background: rgba(255, 187, 28, 1);
+            color: rgba(255, 255, 255, 1);
+            border: rgba(179, 189, 199, 1);
+        }
+        footer .f-content .down    {
+            width:1,140px;
+            height:16px;
+            justify-content: space-between;
+            display: flex;
+        }
+        footer .f-content .down ul{
+            display: flex;
+            gap:25px;
+        }
+
+    
+    footer .f-content .down ul li a {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.25px;
+            color: rgba(146, 152, 159, 1);
+        }
+
+        footer .f-content .down p{
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.25px;
+            text-align: right;
+            color: rgba(146, 152, 159, 1);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media  (min-width:1245PX) and (max-width:100vw){
+
+          
+           header .icon img{
+            display: none;
+       }
+           
+           
+             header .inside-menu{
+                display: none;
+             }
+
+    }
+
+
+
+
+
+    @media  (min-width:768px) and (max-width:992px){
+        header {
+            display: flex;
+            justify-content:center;
+            padding: 0 20px 0;
+            gap:20px
+           }
+          
+           header .icon img{
+            display: none;
+       }
+            .call-us p span{
+                font-weight: 700;
+                font-size: 20px;;
+            }
+            header .logo h1{
+                font-size: 24px;
+            }
+
+            .navigation ul li #home,#trade,#shop{
+                display: flex;
+                width: 80px;
+                justify-content: center;
+             }
+             header .inside-menu{
+                display: none;
+             }
+
+    }
+
+    
+
+    
+    @media  (min-width:993px) and (max-width:1244px){
+    
+        header {
+            display: flex;
+            justify-content:center;
+            padding: 0 20px 0;
+            gap:20px
+           }
+          
+           header .icon img{
+            display: none;
+       }
+            .call-us p span{
+                font-weight: 700;
+                font-size: 20px;;
+            }
+            header .logo h1{
+                font-size: 24px;
+            }
+
+            .navigation ul li #home,#trade,#shop{
+                display: flex;
+                width: 80px;
+                justify-content: center;
+             }
+             header .inside-menu{
+                display: none;
+             }
+    }
+
+    @media  (max-width:767px) {
+        header {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 0 20px 0;
+            gap:20px
+           }
+           nav,.call-us {
+            display: none;
+           }
+           header .icon img{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+       }
+            .call-us p span{
+                font-weight: 700;
+                font-size: 20px;;
+            }
+            header .logo h1{
+                font-size: 24px;
+            }
+
+            .navigation ul li #home,#trade,#shop{
+                display: flex;
+                width: 80px;
+                justify-content: center;
+             }
+              .inside-menu{
+                display: none;
+             }
+             header .icon img:hover + .inside-menu {
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               height: max-content;
+               background-color: #0B9586;
+           }
+
+             
+
+    }
